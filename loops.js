@@ -113,3 +113,16 @@ for(y=1;y<=7;y++){
 let spaces=" ".repeat(7-1);
 console.log("*".repeat(1)+spaces);
 }
+
+
+//generate six random numbers between 1 and 49
+console.log("Generates six random numbers between 1 and 49");
+let x = Math.random() * 49;
+let randomNumbers = [];
+
+for (let i = 0; i < 6; i++) { 
+    let randomNumber;
+    randomNumber = Math.floor(Math.random() * 49 + 1);
+    randomNumbers.push(randomNumber);
+}
+console.log(randomNumbers);
