@@ -117,7 +117,8 @@ console.log("*".repeat(1)+spaces);
 
 //generate six random numbers between 1 and 49
 console.log("Generates six random numbers between 1 and 49");
-let x = Math.random() * 49;
+// let x = Math.random() * 49;
+// console.log(x);
 let randomNumbers = [];
 
 for (let i = 0; i < 6; i++) { 
